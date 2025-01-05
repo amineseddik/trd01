@@ -274,9 +274,7 @@ st.set_page_config(
 # CSS personnalisé
 st.markdown("""
     <style>
-    .stApp {
-            background-color: #f5f5dc;
-        }
+    
     .main {
         background-color: #f5f5dc;
     }
