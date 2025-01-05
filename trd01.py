@@ -271,40 +271,52 @@ st.set_page_config(
     layout="wide"
 )
 
-# CSS personnalisé
 st.markdown("""
     <style>
+    /* Main container background */
     .stApp {
-            background-color: #f5f5dc;
-        }
-    .main {
-        background-color: #f5f5dc;
+        background-color: #f5f5dc !important;
     }
-    .stTitle, .stHeader {
+    
+    /* Content area background */
+    .st-emotion-cache-18ni7ap {
+        background-color: #f5f5dc !important;
+    }
+    
+    /* Headers */
+    .st-emotion-cache-10trblm {
         color: #000000 !important;
     }
-    .stButton button {
-        background-color: #aaaadc;
-        color: red;
+    
+    /* Button styling */
+    .stButton>button {
+        background-color: #aaaadc !important;
+        color: red !important;
     }
-    .matrix-input {
-        background-color: #fff8dc;
+    
+    /* Matrix input background */
+    .st-emotion-cache-183lzff {
+        background-color: #fff8dc !important;
     }
+    
+    /* Text elements */
     h1 {
-        color: red;
+        color: red !important;
     }
+    
     h2 {
-        color: green;
+        color: green !important;
     }
+    
     h3 {
-        color: blue;
+        color: blue !important;
     }
+    
     p {
-        color: black;
+        color: black !important;
     }
     </style>
-    """, unsafe_allow_html=True)
-
+""", unsafe_allow_html=True)
 # Titre principal
 st.title("🚛 Résolution du Problème de Transport")
 
