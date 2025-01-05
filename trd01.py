@@ -281,10 +281,6 @@ st.markdown("""
         background-color: #f5f5dc;
     }
     
-    .stButton button {
-        background-color: #aaaadc;
-        color: white;
-    }
     .matrix-input {
         background-color: #fff8dc;
     }
