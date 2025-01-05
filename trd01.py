@@ -276,7 +276,6 @@ st.markdown("""
     <style>
     .stApp {
             background-color: #f5f5dc;
-            font-family: "Verdana", sans-serif;
         }
     .main {
         background-color: #f5f5dc;
