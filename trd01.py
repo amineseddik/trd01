@@ -280,7 +280,13 @@ st.markdown("""
     .main {
         background-color: #f5f5dc;
     }
-    
+    .stTitle, .stHeader {
+        color: #000000 !important;
+    }
+    .stButton button {
+        background-color: #aaaadc;
+        color: red;
+    }
     .matrix-input {
         background-color: #fff8dc;
     }
