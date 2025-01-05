@@ -274,13 +274,13 @@ st.set_page_config(
 # CSS personnalisé
 st.markdown("""
     <style>
-    
+    .stApp {
+            background-color: #f5f5dc;
+        }
     .main {
         background-color: #f5f5dc;
     }
-    .stTitle, .stHeader {
-        color: #000000 !important;
-    }
+    
     .stButton button {
         background-color: #aaaadc;
         color: white;
